@@ -1,7 +1,8 @@
 // #include "zmq.h"
+// #include <zmqpp/zmqpp.hpp>
 
-#include <zmqpp/zmqpp.hpp>
-#include <string>
-#include <iostream>
-#include <chrono>
-#include <thread>
+class Client {
+    public:
+        Client();
+        void start();
+};
